@@ -10,6 +10,7 @@
             <?= $validation->listErrors() ?>
         </div>
     <?php endif; ?>
+    <!-- hello world -->
     <form action="/auth/register" method="post">
         <label for="username">Username:</label>
         <input type="text" name="username" id="username" value="<?= set_value('username') ?>"><br>
